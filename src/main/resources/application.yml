@@ -1,0 +1,13 @@
+#项目端口
+server:
+  port: 8082
+#上传文件大小，默认1MB
+spring:
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 5MB
+
+store_url: /home/demo/resource/upload/
+#store_url: D:/home/temp/
+view_url: http://47.100.221.144:8081/
